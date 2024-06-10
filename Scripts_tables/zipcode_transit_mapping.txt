@@ -1,0 +1,30 @@
+CREATE TABLE zipcode_transit_mapping (
+    zip INT PRIMARY KEY,
+    city VARCHAR(50),
+    state VARCHAR(2),
+    transit_days INT
+);
+
+-- Insert the data into the table
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (01003, 'AMHERST', 'MA', 3);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (01004, 'AMHERST', 'MA', 3);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (01005, 'BARRE', 'MA', 3);
+
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (03044, 'FREMONT', 'NH', 4);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (03045, 'GOFFSTOWN', 'NH', 4);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (03046, 'DUNBARTON', 'NH', 4);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (03047, 'GREENFIELD', 'NH', 4);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (03048, 'GREENVILLE', 'NH', 4);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (03049, 'HOLLIS', 'NH', 4);
+
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (46167, 'PITTSBORO', 'IN', 2);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (46168, 'PLAINFIELD', 'IN', 2);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (46170, 'PUTNAMVILLE', 'IN', 2);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (46171, 'REELSVILLE', 'IN', 2);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (46172, 'ROACHDALE', 'IN', 2);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (46173, 'RUSHVILLE', 'IN', 2);
+
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (99344, 'OTHELLO', 'WA', 6);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (99345, 'PATERSON', 'WA', 6);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (99346, 'PLYMOUTH', 'WA', 6);
+INSERT INTO zipcode_transit_mapping (zip, city, state, transit_days) VALUES (99347, 'POMEROY', 'WA', 6);

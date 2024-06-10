@@ -17,7 +17,6 @@ public class TransitDaysCalculation {
     private int calculateTransitDays(int zip,String StoreCode)
     {
         if(storeRepository.findIsPickupByStoreCode(StoreCode) ) return 0;
-
         return zipcodeTransitMappingRepository.findByZip(zip).getTransit_days();
     }
     public  int calculatePadTransit(String StoreCode)
